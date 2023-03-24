@@ -1,0 +1,107 @@
+/* Общие стили */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f7f7f7; /* цвет фона */
+}
+
+h1,
+h2 {
+  color: #50c878; /* цвет заголовков */
+}
+
+a {
+  color: #50c878; /* цвет ссылок */
+  text-decoration: none; /* убрать подчеркивание ссылок */
+}
+
+img {
+  display: block; /* убрать отступы у картинок */
+  margin: 0 auto; /* центровать картинки */
+}
+
+/* Стили для header */
+header {
+  background-image: url("img.project/pattern.jpg"); /* фоновый узор */
+  background-color: #fff; /* цвет фона header */
+  padding: 30px;
+  text-align: center;
+}
+
+header p {
+  color: #555; /* цвет текста в header */
+}
+
+header hr {
+  border: none;
+  height: 2px;
+  background-color: #7fbeab; /* цвет линии разделителя */
+}
+
+/* Стили для таблицы */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd; /* цвет границ таблицы */
+}
+
+th {
+  background-color: #50c878; /* цвет фона ячеек заголовков */
+  color: #fff; /* цвет текста ячеек заголовков */
+}
+
+/* Стили для формы */
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block; /* размещать label на новой строке */
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input,
+textarea {
+  border: 1px solid #ccc; /* цвет границ полей ввода */
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: #50c878; /* цвет фона кнопки "Отправить" */
+  color: #fff; /* цвет текста кнопки "Отправить" */
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Media запросы для адаптивной верстки */
+@media (max-width: 767px) {
+  /* Стили для header на мобильных устройствах */
+  header {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  header p {
+    font-size: 14px;
+  }
+}
+
+img {
+  float: right;
+}
